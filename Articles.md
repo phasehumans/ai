@@ -1,6 +1,10 @@
 # Articles Challenge
 
-### Phase 0 : Web Basics
+### Web Basics
 - [How does your browser take those few letters of URL and turn them into a fully functional webpage in seconds?](https://phasehumans.hashnode.dev/urltowebpage)
 - [How DNS works internally](https://phasehumans.hashnode.dev/how-dns-works-internally)
+- [Understanding the HTTP Request-Response Cycle: The Backbone of Web Communication](https://phasehumans.hashnode.dev/understanding-the-http-request-response-cycle-the-backbone-of-web-communication)
+- [Internet Protocols: The Building Blocks of the Digital World](https://phasehumans.hashnode.dev/internet-protocols-the-building-blocks-of-the-digital-world)
+- [Understanding TCP Handshake: A Deep Dive](https://phasehumans.hashnode.dev/understanding-tcp-handshake-a-deep-dive)
+- [HTTP vs HTTPs](https://phasehumans.hashnode.dev/understanding-http-and-https-protocols)
 - 
