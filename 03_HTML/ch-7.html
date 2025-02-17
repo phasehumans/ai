@@ -4,17 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #form {
+            background-color: beige;
+            align-items: center;
+
+            /* display: grid;
+            place-items: center;
+            height: 100vh; */
+
+            display: flex;
+            justify-content: center;  /* Centers horizontally */
+            align-items: center;      /* Centers vertically */
+            height: 100vh;            /* Full viewport height */
+            margin: 0;
+            background-color: aliceblue;
+        }
+        
+        input {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: beige;
+
+        }
+        button {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+    }
+
+            
+    </style>
     
 </head>
 <body>
     <h1>Forms</h1>
-    <div>
-        <form action=".backend" method="post">
+    <div id="form">
+        <form action=".backend" method="post">  
+            <!-- action define ke form kaha send karna hai -->
+            <!-- combination of label and input -->
             <label for="name" >Name</label>
             <input type="name" placeholder="Enter name">
             <br>
+            <!-- <label for="text">Feedback</label> this doesn't work  -->
+            <textarea name="message" id="text" cols="40" rows="3" placeholder="Enter your feedback here"></textarea>
+            <br>
+
             <label for="phone number">Phone Number</label>
-            <input type="tel" placeholder="Enter Phone number">
+            <input type="tel" placeholder="Enter Phone number" pattern="[0-9]{10}">
+            <!-- pattern attribute -->
             <br>
             <label for="password">Password</label>
             <input type="password" placeholder="Enter Password min 8 letters" minlength="8">
@@ -25,7 +68,7 @@
                 <option value="ty">Third Year</option>
                 <option value="last">Last Year</option>
             </select>
-    
+            <br>
             <button type="submit">Submit</button>
         </form>
     </div>

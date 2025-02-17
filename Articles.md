@@ -7,4 +7,10 @@
 - [Internet Protocols: The Building Blocks of the Digital World](https://phasehumans.hashnode.dev/internet-protocols-the-building-blocks-of-the-digital-world)
 - [Understanding TCP Handshake: A Deep Dive](https://phasehumans.hashnode.dev/understanding-tcp-handshake-a-deep-dive)
 - [HTTP vs HTTPs](https://phasehumans.hashnode.dev/understanding-http-and-https-protocols)
-- 
+
+
+### HTML
+- [HTML Guide](https://phasehumans.hashnode.dev/html-hypertext-markup-language-complete-guide)
+- [HTML Forms and Inputs: A Simple Guide](https://phasehumans.hashnode.dev/html-forms-and-inputs-a-simple-guide)
+
+### CSS
