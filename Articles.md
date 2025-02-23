@@ -15,4 +15,7 @@
 
 ### CSS
 - [CSS Box Model](https://phasehumans.hashnode.dev/understanding-the-css-box-model)
-- [CSS flex & Grid](https://phasehumans.hashnode.dev/understanding-css-flexbox-and-grid)
+- [CSS Flex & Grid](https://phasehumans.hashnode.dev/understanding-css-flexbox-and-grid)
+
+### JavaScript
+- 
