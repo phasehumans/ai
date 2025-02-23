@@ -14,3 +14,5 @@
 - [HTML Forms and Inputs: A Simple Guide](https://phasehumans.hashnode.dev/html-forms-and-inputs-a-simple-guide)
 
 ### CSS
+- [CSS Box Model](https://phasehumans.hashnode.dev/understanding-the-css-box-model)
+- [CSS flex & Grid](https://phasehumans.hashnode.dev/understanding-css-flexbox-and-grid)
