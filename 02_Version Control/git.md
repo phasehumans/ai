@@ -30,7 +30,7 @@ git diff recent commit hash id
 git commit -m"message" - to commit changes 
 - if same hash id is generated then their is no change in files; no commit executed
 
-##### Version control - git reset and git reset (hard)
+#### Version control - git reset and git reset (hard)
 git reset hash id
 - the hash id should of commit, which we want to access
 - the later on updation after that specific commit are into modified section
@@ -39,7 +39,15 @@ git reset --hard hash id
 - complete change and no undo
 
 
+#### Advance Git 
+- git branch branch_name ---> create new branch
+- git checkout branch_name ---> enter in branch
+- git checkout -b branch_name --> yeh branch meh enter karo agaar nahi hai toh bana lo fhir enter karo
+- git merge branch_name ---> merge branch to main/master
 
 
+- git commit -am "messge" ---> add and commit
+- git merge --squash branch_name ---> merge with single commit, commit karna hota hai
+- git rebase main ---> rewrite timeline
 
 
