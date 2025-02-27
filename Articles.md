@@ -18,4 +18,5 @@
 - [CSS Flex & Grid](https://phasehumans.hashnode.dev/understanding-css-flexbox-and-grid)
 
 ### JavaScript
+- [Among Us: The Impostor Code (A Story of JavaScript Arrays)](https://phasehumans.hashnode.dev/among-us-the-impostor-code-a-story-of-javascript-arrays)
 - 
