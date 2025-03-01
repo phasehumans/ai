@@ -19,4 +19,6 @@
 
 ### JavaScript
 - [Among Us: The Impostor Code (A Story of JavaScript Arrays)](https://phasehumans.hashnode.dev/among-us-the-impostor-code-a-story-of-javascript-arrays)
+- [Control Flow in JavaScript: if-else and switch](https://phasehumans.hashnode.dev/control-flow-in-javascript-if-else-and-switch)
+- [Understanding Objects in JavaScript](https://phasehumans.hashnode.dev/understanding-objects-in-javascript)
 - 
