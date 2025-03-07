@@ -21,12 +21,12 @@ all version details are store in .git folder in local device
 
 
 #### Terminal Commands:
-ls - list
-ls-hidden - access hidden files
-cd.. - back
-cd filename - get into folder
-mkdir - create new folder
-cat filename- read content of file
+- ls - list
+- ls-hidden - access hidden files
+- cd.. - back
+- cd filename - get into folder
+- mkdir - create new folder
+- cat filename- read content of file
 
 #### Git Commands:
 git init - initialize project to track
