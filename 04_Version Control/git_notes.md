@@ -21,28 +21,27 @@ all version details are store in .git folder in local device
 
 
 #### Terminal Commands:
-ls - list
-ls-hidden - access hidden files
-cd.. - back
-cd filename - get into folder
-mkdir - create new folder
-cat filename- read content of file
+-ls - list
+-ls-hidden - access hidden files
+-cd.. - back
+-cd filename - get into folder
+-mkdir - create new folder
+-cat filename- read content of file
 
 #### Git Commands:
-git init - initialize project to track
+-git init - initialize project to track
+-git add. - stage file
+-git restore --staged filename - unstage file
+-git add filename - track specific file
 
-git add. - stage file
-git restore --staged filename - unstage file
-git add filename - track specific file
+-git status - track status (modified, staged non staged and ready to commit)
+-git log - information of commits with hash ids
+-git log --one line
 
-git status - track status (modified, staged non staged and ready to commit)
-git log - information of commits with hash ids
-git log --one line
+-git diff - difference between commits 
+-git diff recent commit hash id 
 
-git diff - difference between commits 
-git diff recent commit hash id 
-
-git commit -m"message" - to commit changes 
+-git commit -m"message" - to commit changes 
 - if same hash id is generated then their is no change in files; no commit executed
 
 #### Version control - git reset and git reset (hard)
