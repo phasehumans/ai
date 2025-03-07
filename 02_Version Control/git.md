@@ -5,6 +5,21 @@ Git is used for
 - backup
 all version details are store in .git folder in local device
 
+#### Initialize Repo
+- git init
+- git remote add origin
+
+- git add .
+- git commit -m "message"
+- git push origin master
+
+#### Pull
+- git fetch origin
+- git pull origin master
+- git add .
+- git push origin master
+
+
 #### Terminal Commands:
 ls - list
 ls-hidden - access hidden files
@@ -48,6 +63,6 @@ git reset --hard hash id
 
 - git commit -am "messge" ---> add and commit
 - git merge --squash branch_name ---> merge with single commit, commit karna hota hai
-- git rebase main ---> rewrite timeline
+- git rebase main/master ---> rewrite timeline
 
 
