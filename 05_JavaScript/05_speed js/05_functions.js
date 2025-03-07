@@ -25,7 +25,7 @@ let config = (function () {
 let person1 = {
   personsName: "ravi",
   greet: function () {
-    console.log(`Hello, ${this.personsName}`);
+    console.log(`Hello, ${this.personsName}`);    //this. is used for context
   },
 };
 
