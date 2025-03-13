@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chapter 7</title>
     <style>
         #form {
             background-color: beige;
@@ -43,31 +43,58 @@
     
 </head>
 <body>
+    <!-- label: kya show karna hai -->
+    <!-- input: kya input hai type aur placceholder  -->
+
     <h1>Forms</h1>
     <div id="form">
         <form action=".backend" method="post">  
+
             <!-- action define ke form kaha send karna hai -->
             <!-- combination of label and input -->
+
             <label for="name" >Name</label>
             <input type="name" placeholder="Enter name">
             <br>
+
             <!-- <label for="text">Feedback</label> this doesn't work  -->
             <textarea name="message" id="text" cols="40" rows="3" placeholder="Enter your feedback here"></textarea>
             <br>
 
             <label for="phone number">Phone Number</label>
             <input type="tel" placeholder="Enter Phone number" pattern="[0-9]{10}">
-            <!-- pattern attribute -->
+            <!-- adding constraints for phone number -->
             <br>
+
+            
             <label for="password">Password</label>
             <input type="password" placeholder="Enter Password min 8 letters" minlength="8">
             <br>
+
             <label for="class">Education</label>
             <select name="class" id="class">
                 <option value="sy">Second Year</option>
                 <option value="ty">Third Year</option>
                 <option value="last">Last Year</option>
             </select>
+            <!-- select- option for dropdown -->
+            <br>
+
+            <!-- radio button -->
+            <label for="sub"> Subject
+                <input type="radio" name="DBMS" value="dbms"> DBMS
+                <input type="radio" name="PSI" value="psi"> PSI
+                <input type="radio" name="DAA" value="daa"> DAA
+                <input type="radio" name="AI" value="ai"> AI
+            </label>
+
+            <br>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes"> Subscribe to Newsletter
+            <br>
+            
+            <!-- inputs : text, password, email, number, radio, checkbox, date, time, color, file, search, url, tell, hidden, range, -->
+             <!-- week, month, datetime- local, button, reset, submit -->
+
             <br>
             <button type="submit">Submit</button>
         </form>
