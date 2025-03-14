@@ -16,13 +16,12 @@ teas.push("Chamomile Tea");
 // Ooolong ka index nikala, agar array meh exist nahi karta toh -1 return karenga 
 const index = teas.indexOf("Oolong tea");
 console.log(index);
-
 // condn check kare -1 hoga toh no opr preform, 
 if (index > -1) {
-
   // splice meh remove karte hai, 2 hota toh oolong ke badh wal abhi remove ho jata 
   teas.splice(index, 1);
 }
+
 
 // Problem: Filter the list to only include teas that are caffeinated
 const caffeinatedTeas = teas.filter((tea) => tea !== "Herbal Tea");
