@@ -1,7 +1,7 @@
 console.log("chaitanya")
 
 // function ka setup
-function function_name(kitne){
+function function_name(kitne){          // (kitne) --> parameter
    
     // function ka kaam
     console.log("Chaitanya Sonawane")
@@ -14,5 +14,7 @@ function function_name(kitne){
 
 // function ko call karna
 function_name(3);
-function_name(40);
+function_name(17);
+function_name();        // undefined
+
 // function_name(); undefined chai
