@@ -1,5 +1,11 @@
+// Datatypes: number, string, boolean, object, undefined, symbol, null
+
 // string - "", '', ``
-let name = "Rohit";
+let namee = "Rohit";
+console.log(namee.toLocaleUpperCase())
+console.log(namee.length)     //returns length
+
+// strqt.method() --> slice, uppercase, lowercase etc
 
 // Number - 25, 25.9
 let age = 25;
@@ -20,9 +26,17 @@ let skills = ["html", "CSS", "Javascript"];
 let arr= [1,2,3,4,5]
 
 
+// conversioin of datatypes
+let num1= '42'
+let num2= Number(num1)
+
+console.log(typeof(num1))     // string
+console.log(typeof(num2))     // number
+
+
 // object: collection of key-value pairs
 let studentProfile = {
-  name: "Chiatanya",
+  name: "Chaitanya",
   age: 21,
   isPaid: true,
   skills: ["HTML", "Css", "JS"],
@@ -36,7 +50,7 @@ console.log(studentProfile.favoriteClass)
 console.log(studentProfile.skills)
 
 
-
+// typeof (datatype)
 console.log(typeof isPaid);     // boolean
 console.log(typeof skills);     //object
 console.log(typeof studentProfile);

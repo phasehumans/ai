@@ -1,4 +1,19 @@
+// assign variable using : let, const and var (use let and const)
+
 console.log("chaitanya")
+console.log(`chaitanya`)
+
+// console.log(`chaitanya ${lname}`)       // errror : can't acess lname before intializaztion
+
+const fname= "chaitanya"
+let lname= "sonawane"
+
+// fname= "chetan"      ---> error: can't change const value
+lname= "patil"
+
+console.log("using const -->",fname)
+console.log("using let -->",lname)
+
 
 // function ka setup
 function function_name(kitne){          // (kitne) --> parameter
