@@ -1,3 +1,10 @@
+## Setup
+- install conda
+- conda create -p venv python==3.12
+
+
+
+
 ## Immutable and mutable 
 
 ### Immutable
