@@ -31,28 +31,28 @@ Git is used for
 
 ### Git Commands:
 
-git init - initialize project to track
+- git init - initialize project to track
 
-git add. - stage all files
-git restore --staged filename - unstage file
-git add filename - track specific file
+- git add . - stage all files
+- git restore --staged filename - unstage file
+- git add filename - track specific file
 
-git status - track status (modified, staged non staged and ready to commit)
-git log - information of commits with hash ids | khabar batao
-git log --one line : khabar batao short meh
+- git status - track status (modified, staged non staged and ready to commit)
+- git log - information of commits with hash ids | khabar batao
+- git log --one line : khabar batao short meh
 
-git diff - difference between commits 
-git diff recent commit hash id 
+- git diff - difference between commits 
+- git diff recent commit hash id 
 
-git clone SSH url --> clone repo
+- git clone SSH url --> clone repo
 
-git commit -m"message" - to commit changes 
-- if same hash id is generated then their is no change in files; no commit executed
+- git commit -m"message" - to commit changes 
+> if same hash id is generated then their is no change in files; no commit executed
 
 
-git push origin master ---> without setting upstream
+- git push origin master ---> without setting upstream
 
-git push -u origin master --> setting upstrem | git push and git pull (no need to specify branch)
+- git push -u origin master --> setting upstrem | git push and - git pull (no need to specify branch)
 
 
 ### Version control - git reset and git reset (hard)
