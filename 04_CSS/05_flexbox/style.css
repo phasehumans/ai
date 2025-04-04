@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+#container{
+    width: 800px;
+    height: 200px;
+}
+
+
+#box1{
+    background-color: chartreuse;
+}
+
+#box2{
+    background-color: rgb(246, 230, 10);
+}
+
+#box3{
+    background-color: rgb(85, 0, 255);
+}
+
+#box4{
+    background-color: rgb(255, 0, 0);
+}
+
+#box5{
+    background-color: rgb(255, 0, 251);
+}
+
