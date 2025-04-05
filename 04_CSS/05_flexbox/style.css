@@ -12,8 +12,52 @@ div{
 
 
 #container{
-    width: 800px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+
+    /* left to right elmt arrange */
+    flex-direction: row;    
+    
+    /* right se left elmt arrange */
+    flex-direction: row-reverse;
+
+    /* top to bottom arrange; elmt apne aap adjust karte hai to maintain in 
+    flex container, until there content allow */
+    flex-direction: column;
+
+    /* bottom to top arrange */
+    flex-direction: column-reverse;
+
+
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /* directon change nahi howe hai; it has chaneged its aligment to left */
+    justify-content: flex-end;
+
+    /* elmt in centre */
+    justify-content: center;
+
+    /* space ache se utilise karo */
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* flex container ke centre meh lekar aao */
+    align-items: center;
+
+
+    flex-shrink: inherit;
+
+
+
+
+
 }
 
 
