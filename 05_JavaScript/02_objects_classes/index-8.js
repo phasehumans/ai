@@ -10,7 +10,7 @@ let p1 = {
 let p2 = {
   ...p1,
   address: {
-    ...p1.address,
+    ...p1.address,      //address ke deep copy kardo
   },
 };
 

@@ -2,7 +2,7 @@ let p1 = {
   fname: "Hitesh",
 };
 
-let p2 = p1;
+let p2 = p1;    //shallow copy
 
 p2.fname = "Piyush Garg";
 
