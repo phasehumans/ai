@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Review Collector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Review Collector</h2>
+
+    <form id="reviewForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required />
+      <textarea id="reviewText" placeholder="Write your review..." required></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+
+    <h3>All Reviews</h3>
+    <div id="reviewsList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
