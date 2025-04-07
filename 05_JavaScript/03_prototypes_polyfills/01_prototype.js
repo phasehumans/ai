@@ -20,3 +20,23 @@ console.log(str.length);
 
 const obj = { x: 1, length: 1 };
 console.log(obj.x);
+
+
+
+
+// prototype chaining
+const user = {
+  greet: function() {
+    console.log("Hello!");
+  }
+};
+
+const student = {
+  name: "Rahul"
+};
+
+// Set user as prototype of student
+Object.setPrototypeOf(student, user);
+
+// student doesn't have greet(), but it will find it in prototype
+student.greet();  // Output: Hello!
