@@ -6,16 +6,17 @@ let chaiTypes = ["Masala Chai", "Ginger chai", "Green Tea", "Lemon Tea"];
 
 chaiTypes.push("Herbal Tea");
 const data = chaiTypes.pop();
-console.log(data); //
+console.log(data); //herbal tea
 
 let index = chaiTypes.indexOf("Green-Tea");
 console.log(index);
 
-if (index !== -1) {
+
+if (index !== -1) {     //not found then returns -1
   chaiTypes.splice(index, 1);
 }
 
-// console.log(chaiTypes); //
+// console.log(chaiTypes);
 
 chaiTypes.forEach((chai, index) => {
   console.log(`${index + 1}: ${chai}`);

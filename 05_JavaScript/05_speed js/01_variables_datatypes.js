@@ -1,6 +1,8 @@
-let name = "hitesh";
-const pi = 3.14;
+let name = "hitesh";    //variable
+const pi = 3.14;        //constant
 
+
+// datatypes: primitive and non primitive
 let number = 42.4; // Number
 let text = "Hello"; //String
 let isTrue = true; // Boolean
