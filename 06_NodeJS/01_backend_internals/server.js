@@ -12,12 +12,15 @@ const express = require('express');
 
 const http = require('http');
 
+// const app= express()
 const handleFunctionV2= express();
 handleFunctionV2.get('/', (req, res) => res.end('Homepage'))
 handleFunctionV2.get('/contact-us', (req, res) => res.end('Contact karo'))
 
 // restart server, if done changes
 
+
+// app.listen
 handleFunctionV2.listen(8000, function(){       //listen on fn
     console.log(`server 2 started `)
 })

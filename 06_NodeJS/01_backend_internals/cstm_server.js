@@ -26,7 +26,9 @@ GET --> request type
             return res.end('Contact Us Page')       // displayed on headers
 
         if (req.url === '/about' )
+            // return console.log("about us page")
             return res.end('About Us')
+
 
     }
     break

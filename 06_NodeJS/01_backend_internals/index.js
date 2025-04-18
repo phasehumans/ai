@@ -1,4 +1,6 @@
 const fs = require('fs');       //require is fn 
+
+// alternate of import and export (require: old method to access)
 const math = require('./math')
 
 fs.writeFile('./sample.txt', 'hello everyone', ()=>{})
@@ -9,8 +11,8 @@ console.log({__filename, __dirname})        //return file path
 
 
 
-console.log(math.add(2,5))
-
+console.log(math.sub(2,5))
+console.log(math.multi(2,5))
 
 function __require(id){
     // gar id . se shuru hu toh user ki dir mei code 
