@@ -1,0 +1,19 @@
+{
+  "name": "04_authentication",
+  "version": "1.0.0",
+  "description": "mastering auth (peer class)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "chaitanya sonawane",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
