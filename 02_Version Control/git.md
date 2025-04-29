@@ -1,25 +1,9 @@
-## GIT & GitHub
+## Git & GitHub
 Git is used for
 - collab
 - version control (maintain history)
 - branching and merging
 - backup all version details are store in .git folder in local device
-
-### Initialize Repo
-- git init
-- git remote add origin SSH link
-- git remote -v
-
-- git add .
-- git commit -m "message"
-- git push origin master
-
-### Pull
-- git fetch origin
-- git pull origin master
-- git add .
-- git push origin master
-
 
 ### Terminal Commands:
 - ls : list
@@ -28,6 +12,31 @@ Git is used for
 - cd filename : get into folder
 - mkdir : create new folder
 - cat filename : read content of file
+- pwd : print current directory path
+- mkdir foldername : make a new folder
+- touch filename.txt : create a new file
+- cat filename.txt : show content of a file
+- clear : clear the screen
+- exit : close the termin
+- mv file1.txt folder/ : move file1 into folder
+- mv oldname.txt newname.txt : rename a file
+- rm filename.txt : delete a file
+
+### Initialize Repo
+- git init
+- git remote add origin SSH link
+- git remote -v
+
+- `git add .`
+- `git commit -m "message"`
+- `git push origin master`
+
+### Pull
+- git fetch origin
+- git pull origin master
+- git add .
+- git push origin master
+
 
 ### Git Commands:
 
