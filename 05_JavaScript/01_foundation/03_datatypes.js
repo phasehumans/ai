@@ -1,3 +1,9 @@
+"use strict"; //treat all js code as newer version 
+
+// alert("hello world")  //pop up in doc browser not in node
+
+// ecma: doc for js, standard doc for language specifications and details
+
 // Datatypes: number, string, boolean, object, undefined, symbol, null
 
 // string - "", '', ``
@@ -8,13 +14,13 @@ console.log(namee.length)     //returns length
 // strqt.method() --> slice, uppercase, lowercase etc
 
 // Number - 25, 25.9
-let age = 25;
+let age = 20
 
 // Boolean - true, false
 let isPaid = true;
 
 // undefined and null
-let favoriteClass = null;
+let favoriteClass = null; //value is null (not empty/ 0)
 let hometown;   // undefined : badh meh dekhe ge
 
 console.log(favoriteClass);   //null
@@ -56,3 +62,6 @@ console.log(typeof skills);     //object
 console.log(typeof studentProfile);
 console.log(typeof favoriteClass);
 console.log(typeof hometown);     // undefined
+
+
+console.table([typeof isPaid, typeof skills, typeof studentProfile, typeof favoriteClass, typeof hometown])
