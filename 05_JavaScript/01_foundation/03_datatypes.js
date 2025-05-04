@@ -39,6 +39,23 @@ let num2= Number(num1)
 console.log(typeof(num1))     // string
 console.log(typeof(num2))     // number
 
+let age1 = 20.5
+console.log("age", age1, typeof age1);
+
+let ageString = Number(age1)
+console.log("ageString: ", ageString, typeof ageString);
+// can't covert num into string
+
+let lname= "sonawane"
+
+let numConvert= Number(lname)
+console.log(numConvert);    //coverted into num but value is Nan
+console.log(typeof numConvert);
+
+ /* type conversion is done but value is showed as NaN */
+
+//  boolean is converted into 0 and !
+
 
 // object: collection of key-value pairs
 let studentProfile = {
