@@ -6,6 +6,17 @@
 
 // Datatypes: number, string, boolean, object, undefined, symbol, null
 
+/*
+primitive: (call by value: copy of data, changes are in copy)
+types --> number, string, boolean, null, undefined, symbol(value ko unique), bigInt(scientific values)
+
+non primitive/ ref (call by reference: direct ref)
+type --> array, objects, functions
+
+js is dynamically type, typescript is static
+
+*/
+
 // string - "", '', ``
 let namee = "Rohit";
 console.log(namee.toLocaleUpperCase())
@@ -22,6 +33,8 @@ let isPaid = true;
 // undefined and null
 let favoriteClass = null; //value is null (not empty/ 0)
 let hometown;   // undefined : badh meh dekhe ge
+
+// typeof null - object
 
 console.log(favoriteClass);   //null
 console.log(hometown);        //undefined
@@ -65,6 +78,16 @@ let studentProfile = {
   skills: ["HTML", "Css", "JS"],
   favoriteClass: null,
 };
+
+
+// symbol
+const id = Symbol('123')
+const anotherid = Symbol('123')
+// value is wrap into symbol is value is diff
+
+
+// BigInt
+const bignum= 87476597485689568n
 
 
 console.log(`values from profile: My name is ${studentProfile.name} and my age is ${age} `)
