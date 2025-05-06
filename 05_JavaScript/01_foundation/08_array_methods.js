@@ -170,6 +170,6 @@ for (const value of itr2){
 
 
 // with(index, value) : changes value at index ; 
-// copying: shallow copy (no change is og)
+// copying: shallow copy
 console.log(clrs.with(0, 'grey'))
 console.log(clrs)
