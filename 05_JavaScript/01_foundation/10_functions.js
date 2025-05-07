@@ -1,10 +1,28 @@
-// fn : reusable block of code
+/* 
+fn : reusable block of code 
+
+code after return is unreachable code
+
+*/
 
 function fn_name (fname) {          // parameter- fname (placeholder)
-    return console.log(`${fname} sonawane`)
+    console.log(`${fname} sonawane`)
 }
 
-fn_name("chaitanya")        //value pass in fn is argument
+
+fn_name  // fn ref
+fn_name("chaitanya")    //fn execute, value pass in fn is argument
+
+const result= fn_name("chetan")
+console.log(result);        //undefined
+
+
+// return fn
+function add (a,b){
+    return a+b
+    //code after return is unreachable
+}
+console.log(add(2,3))
 
 
 // scope: 
@@ -48,3 +66,31 @@ const arrfn1 = (x) => {
 
 arrfn()
 arrfn1("parameter")
+
+
+// rest operator
+function calculatePrice(...num1){
+    return num1
+}
+
+console.log(calculatePrice(200,32,55))
+
+const sum= calculatePrice(5,5,10)
+let totalSum= 0
+for(let i=0; i<sum.length; i++){
+    totalSum = totalSum + sum[i]
+}
+console.log(totalSum);
+
+
+// habdleObj in fn
+
+const user= {
+    username: "chetan2004",
+    password: "12345" 
+}
+
+function handleObject (anyobj){
+    console.log(`usrename is ${anyobj.username} and password is ${anyobj.password}`);
+}
+ handleObject(user)
