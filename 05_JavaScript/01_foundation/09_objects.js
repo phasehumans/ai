@@ -1,12 +1,13 @@
 /* 
 obj declaration: 
-- literals (no singleton)
-- constructor
+- literals (non singleton)
+- constructor (singleton)
 
 
 
 
 */
+
 // constructor method :singleton
 Object.create
 
@@ -54,3 +55,79 @@ user.greetTwo= function(){
 }
 console.log(user.greetTwo());
 
+
+// add elmt in object
+const tinderUser= {
+
+}
+console.log(tinderUser);
+
+tinderUser.id= "384"
+tinderUser.name= "username"
+tinderUser.age= 20
+
+console.log(tinderUser);
+
+
+// combine obj
+const profile= {
+    user: "chetan",
+    logo: "https://logo.png",
+    age: 21,
+}
+
+const profile2= {
+    user1: "bhavesh",
+    logo1: "https://logo2.png",
+    age1: 21,
+    username: "bhavesh87323"
+}
+
+const combineProfile= {profile, profile2}
+console.log(combineProfile);
+
+const combineProfile2= Object.assign({},profile, profile2)  //{}target
+console.log(combineProfile2);
+
+const combineProfile3= {...profile, ...profile2}        //... spread operator
+console.log(combineProfile3);
+
+
+// extraction of keys and values
+console.log(Object.keys(profile));
+console.log(Object.keys(combineProfile3));
+
+console.log(Object.values(combineProfile3));
+console.log(Object.values(profile));
+
+
+// ----------------  objects de-structure & API ----------
+
+const course= {
+    name: "javascript basics",
+    duration: "1 month",
+    instructor: "hitesh sir",
+    price: "999"
+}
+
+console.log(course.duration);
+
+// de-structure --> syntactical sugar
+const {duration, instructor: teacher}= course
+
+console.log(duration);
+console.log(teacher);       //custom name
+
+
+// API  - values in JSON 
+
+// json- obj
+/* 
+{
+    name: "chaitanya",
+    coursename: "java script",
+    price: "free"
+}  
+*/   
+
+    
