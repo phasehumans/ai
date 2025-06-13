@@ -3,7 +3,7 @@
 ### Route 1
 - setup environment: python -m venv myenv
 - activate: myenv\Scripts\activate (file path)
-- install : pip install name(ehatenver you want to install)
+- install : pip install name(what ever to install)
 
 
 ### Route 2
