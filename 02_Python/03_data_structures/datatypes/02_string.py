@@ -1,5 +1,3 @@
-#  2 string add; no space they are joint
-
 
 name= 'chaitanya'
 print(name)
@@ -9,7 +7,7 @@ name= """chaitanya""" #structure
 print(name)
 
 
-# slicing [start:end] # end is exclusive
+# slicing [start:end :stepsize ] # end is exclusive
 num='0123456789'
 print(num)
 print(num[3:6]) #slicing

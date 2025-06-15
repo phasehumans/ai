@@ -1,5 +1,8 @@
 # tuple is immutable and list is mutable
-# [] - list {} - dictonaries () - tuple
+# [] -> list : mutable, order
+# {} -> dictonaries: mutable, unorder
+# () -> tuple: imutable (assign not possible), order
+# {} -> set: mmutable, unorder
 
 names= ("chetan", "bhavesh", "kaustubh", "anant", "sachin", "jayesh")
 print(names)
