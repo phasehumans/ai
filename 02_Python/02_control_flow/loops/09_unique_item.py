@@ -9,3 +9,5 @@ for item in items:
         print("Duplicate ",item)
         break
     unique_item.add(item)
+
+# comparing w/ unique set()

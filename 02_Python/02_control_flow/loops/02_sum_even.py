@@ -9,6 +9,8 @@ for i in range(1, number+1): # range is exclusive; last not count
 
 print(sum)
 
+# range (start, end, stepsize)
+
 # range(start, stop) not include stop value - exclusive
 # range(start, stop, increment)
 # range (stop)

@@ -12,3 +12,11 @@ for i in range(1,11):
     ans=number*i
     print("{} X {} = {}".format(number,i,ans))
 
+
+
+# print table
+num= int(input("enter num: "))
+for i in range(1, 11):
+    ans= num*i
+    print(f"{num} X {i} = {ans}")
+

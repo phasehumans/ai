@@ -1,9 +1,6 @@
 # while: counter intilization and updation statment
 # for : no updation statment
 
-
-
-
 numbers= [1,-2,3,4,5,5,6,7,-7,2,10]
 positive_number_count= 0
 
