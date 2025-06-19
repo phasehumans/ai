@@ -101,4 +101,11 @@ git reset --hard #hash id
 8. re-push karenga --> git push origin master/main
 9. get code on memebers --> git pull
 
+### Git Comments:
+- feat: added new feature
+- fix: fixed bug & issue
+- style: changed formattting and UI
+- refactor: improved code structure
+- docs: chnages releated to documentation
+- chore: minor code keeping (update and rename folder)
 
