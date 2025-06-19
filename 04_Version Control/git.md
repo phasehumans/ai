@@ -103,10 +103,3 @@ git reset --hard #hash id
 9. get code on memebers --> git pull
 
 
-### Git Comments:
-- feat: added new feature
-- fix: fixed bug & issue
-- style: changed formattting and UI
-- refactor: improved code structure
-- docs: chnages releated to documentation
-- chore: minor code keeping (update and rename folder)
