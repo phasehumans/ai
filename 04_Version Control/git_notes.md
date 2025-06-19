@@ -61,7 +61,8 @@ Git is used for
 
 - git push origin master ---> without setting upstream
 
-- git push -u origin master --> setting upstrem | git push and - git pull (no need to specify branch)
+- git push -u origin master --> setting upstrem   
+- git push and git pull (no need to specify branch)
 
 
 ### Version control - git reset and git reset (hard)
@@ -102,3 +103,10 @@ git reset --hard #hash id
 9. get code on memebers --> git pull
 
 
+### Git Comments:
+- feat: added new feature
+- fix: fixed bug & issue
+- style: changed formattting and UI
+- refactor: improved code structure
+- docs: chnages releated to documentation
+- chore: minor code keeping (update and rename folder)
