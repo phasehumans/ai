@@ -48,6 +48,27 @@ immutable:
 5. memebership: in , not in
 
 
+### String
+- stores char
+- immutable
+- strip() --> remove blank space
+- upper() / lower()
+- isupper() / islower() --> T/F
+- isalpha() --> str contains only alphabets T/F
+- isdigit() --> str contains only digit
+- isalnum() --> both and check not empty
+- find() --> search substr return index (-1)
+- index() --> similar to find, (err)
+- count() --> count the occurence
+- replace(old, new)
+- split(separator) --> returns list
+- separator.join(iterable/ str) 
+- startswith() --> T/F
+- endswith()
+- zfill(0 req) --> pad w/0 for uniform str num
+- center(num, symbol)  --> center str with symbol around
+
+ 
 ### Data Structures
 
 Lists
