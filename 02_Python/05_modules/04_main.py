@@ -1,6 +1,13 @@
 import calculator as clc
 import string_fn as strr
 
+from string_fn import palindrome_check
+from calculator import *
+
+impo_facto= factoraial(4)
+print(impo_facto)
+
+
 facto= clc.factoraial(3)
 print(facto)
 
@@ -13,3 +20,5 @@ print(sub_num)
 check_palindrome= strr.palindrome_check("madam")
 print(check_palindrome)
 
+
+# importing all modules req more space
