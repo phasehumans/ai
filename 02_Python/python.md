@@ -17,6 +17,7 @@ primtive:
 - float
 - boolean
 - complex
+- None
 
 non primtive:
 - list 
@@ -24,6 +25,9 @@ non primtive:
 - tuple
 - sets
 
+Type conversion:  
+1. implicit type conversion
+2. explicit type conversion
 
 ### Mutable & Immutable
 
@@ -42,10 +46,11 @@ immutable:
 
 ### Operators
 1. arithmetic: + - * / // %
-2. comparision: == > < >= <= 
+2. comparision: ==, >, <, >=, <=, !=
 3. logical: and or not
 4. bitwise: & (and), | (or), ~ (not), ^ (xor)
 5. memebership: in , not in
+6. assignment: = , +=, -=, *=, /=, //=
 
 
 ### String
@@ -111,6 +116,8 @@ Dictionaries
 - if 
 - else
 - elif
+- ternary : value_if_true if condition else value_if_false
+
 
 ### Iterations
 
@@ -119,7 +126,10 @@ for -> continue till constraints
 for i in range(start, end, stepsize):   
 // logic
 
-while -> contiue as long condn is true
+while -> contiue as long condn is true   
+
+use of flag= true/ false --> to control loop, multi inside condn  
+
 
 - break: exit loop
 - continue: skip that specific iteration
