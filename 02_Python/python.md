@@ -72,6 +72,8 @@ immutable:
 - endswith()
 - zfill(0 req) --> pad w/0 for uniform str num
 - center(num, symbol)  --> center str with symbol around
+- split() --> str into segments[]
+- .join() --> combine multiple strings into one single string, with a specific separator in between.
 
  
 ### Data Structures
