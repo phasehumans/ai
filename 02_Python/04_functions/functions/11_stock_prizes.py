@@ -4,7 +4,9 @@ def maximize_profit(stock_prices: list[int]) -> int:
     for i in range(len(stock_prices)-1):
         min_value= stock_prices[i]
         # print(min_value)
-        for j in range(len(stock_prices)-1):
+
+        # loop should start from again just agle value values
+        for j in range(i,len(stock_prices)-1):
             # print(j)
             # print(max_value)
             max_value= stock_prices[j+1]
@@ -17,8 +19,10 @@ def maximize_profit(stock_prices: list[int]) -> int:
                 maxprof= res
     return maxprof
     
-lst1= [7,1,5,3,6,4]
-print(maximize_profit(lst1))
+# lst1= [7,1,5,3,6,4]
+lst2= [12,11,15,3,10]
+# print(maximize_profit(lst1))
+print(maximize_profit(lst2))
 
 
 # err was of if identation
