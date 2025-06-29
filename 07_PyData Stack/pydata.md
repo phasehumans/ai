@@ -28,7 +28,8 @@ Attributes:
 - size - returns number of elements in the array
 - dtype - returns data type of elements in the array
 - itemsize - returns the size (in bytes) of each elements in the array
-- reshape - changes the shape of the array to the desired dimensions.
+- reshape - changes the shape of the array to the desired dimensions
+- ndim - dimension of arr
 
 
 Indexing:
