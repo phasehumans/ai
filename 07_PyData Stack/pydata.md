@@ -41,4 +41,32 @@ Slicing:
 - array[start:stop:step]
 - mask --> filter to create sub array
 
+### Operations
+element wise operations (0,1 + 0,1)
 
+- arthmetic : + - * / % (elmt wise oprt)
+- np.sum()
+- np.prod()
+- np.cumsum() --> sum of the current and all previous elements.
+- np.cumprod()
+- np.add()
+- np.substract()
+- np.multiply()
+- np.divide()
+- < > >= <= == != (elmt wise)
+- np.logical_and, 
+- np.logical_or
+- np.logical_not
+- np.logical_xor
+
+### Statistical fn
+- np.mean() --> avg
+- np.median()
+- np.var() --> The average of the squared differences from the mean
+- np.std() --> The square root of the variance, representing the dispersion of the data
+- np.min() --> smallest value in arr
+- np.max() --> largest value in array
+- np.percentile() --> a score in the k-th percentile would be above approximately k% of all scores in its set
+
+### String fn
+- 
