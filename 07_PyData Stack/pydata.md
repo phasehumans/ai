@@ -10,6 +10,7 @@ array manipulation & operations
 - np.ones()
 - np.empty()
 - np.arange(start, stop, step, dtype=None)
+- np.full(size, value)
 
 
 ### Datatypes
@@ -45,6 +46,10 @@ Slicing:
 element wise operations (0,1 + 0,1)
 
 - arthmetic : + - * / % (elmt wise oprt)
+- np.sort()
+- np.argsort() --> idices of sorted
+- np.concatenate()
+- np.reshape()
 - np.sum()
 - np.prod()
 - np.cumsum() --> sum of the current and all previous elements.
@@ -94,7 +99,8 @@ element wise operations (0,1 + 0,1)
 
 
 ### Matrix
-- np.transpose() --> row to col
+- np.transpose() --> row to col ()
+- arr.T --> transpose
 - np.linalg.inv()
 - np.dot()
 
