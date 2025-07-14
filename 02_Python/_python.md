@@ -132,11 +132,16 @@ while -> contiue as long condn is true
 
 use of flag= true/ false --> to control loop, multi inside condn  
 
+scope of a loop variable extends beyond the loop itself. This means that even after the loop completes, the variable still retains its last assigned value.
+
+
 
 - break: exit loop
 - continue: skip that specific iteration
 - pass: null opt (marker)
 - exit: exit program
+- for else execute a block of code after a loop completes, but only if the loop was not interrupted by a break statement.
+- 
 
 ### Shallow copy:
 a= [1,2,3, [36, 38, 40], "apple"]   
