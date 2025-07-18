@@ -13,8 +13,8 @@
 
 ## Contact
 
-- LinkedIn: [@phasehumans](https://www.linkedin.com/in/phasehumans/)
-- Twitter: [@chaitanya197]()
-- Kaggle: [@chaitanya197](https://www.kaggle.com/chaitanya197)
-- Leetcode: [@phasehumans](https://leetcode.com/u/phasehumans/)
-- Contact: dev.chaitanyasonawane@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/phasehumans/)
+- [Twitter]()
+- [LeetCode](https://leetcode.com/u/phasehumans/)
+- [Kaggle](https://www.kaggle.com/chaitanya197)
+- 📧 dev.chaitanyasonawane@gmail.com
