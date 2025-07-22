@@ -1,20 +1,16 @@
 ## Projects
 
 ### Python
-1. Web Scraper - [github repo]()
+1. Web Scraper - [github repo](https://github.com/phasehumans/web-scraper)
+2. Resume Roaster - [github repo](https://github.com/phasehumans/resume-roaster)
 
 ### EDA
-1. Covid-19 Case Study - [gitub repo]()
+1. Covid-19 Case Study - [github repo]()
 2. Retail Analytics Case Study - [github repo]()
 3. Superstore Sales Data EDA - [github repo]()
 
 
 ---
-
-## Contact
-
 - [LinkedIn](https://www.linkedin.com/in/phasehumans/)
 - [Twitter]()
-- [LeetCode](https://leetcode.com/u/phasehumans/)
-- [Kaggle](https://www.kaggle.com/chaitanya197)
-- 📧 dev.chaitanyasonawane@gmail.com
+- dev.chaitanyasonawane@gmail.com

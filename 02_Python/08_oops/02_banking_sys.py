@@ -1,3 +1,22 @@
+""" 
+Inheritance:
+- child class can have its parents attributes and can also creates its own attributes
+
+Polymorphism (many forms):
+- depend upon class, methods logic gets change
+
+Abstraction:
+- focusing on essential characteristics while hiding unnecessary details
+
+Encapsulation:
+- bundling data(attributes) and methods (fn) that operate on that data into a single unit, i.e class
+
+
+Types of inheritance:
+
+ """
+
+# encapsulation
 class Account:
     def __init__(self, account_number, account_holder, balance):
         self.account_number= account_number
@@ -27,16 +46,7 @@ class Account:
         print(f"Acc Number : {self.account_number} , Balance: {self.balance}")
 
 
-""" 
-Inheritance:
-- child class can have its parents attributes and can also creates its own attributes
-
-Polymorphism (many forms):
-- depend upon class, methods logic gets change
-
-
- """
-
+# inheritance
 class SavingAcc(Account):
     def __init__(self, account_number, account_holder, balance, interest_rate):
         super().__init__(account_number, account_holder, balance)
@@ -52,42 +62,42 @@ class SavingAcc(Account):
         print(f"Intrest added {interest}, New balance : {self.balance}")
     
 
+class CurrentAcc(Account):
+    def __init__(self, account_number, account_holder, balance, od_limit):
+        super().__init__(account_number, account_holder, balance)
+        self.od_limit= od_limit
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Polymorphism
-class Shape:
-    def area(self):
-        pass
-
-class Circle(Shape):
-    def _init_(self, radius):
-        self.radius= radius
+    def withdraw(self, amount):
+        if amount <= self.balance + self.od_limit:
+            self.balance-= amount
+            print(f"Withdrawn amount is {amount}, Current Balance: {self.balance}")
+        else:
+            print("Insufficent balance and OD limit")
+        
     
-    def area(self):
-        return 3.14 * self.radius * self.radius
-    
-class Rectangle(Shape):
-    def _init_ (self, height, width):
-        self.height= height
-        self.width= width
-    
-    def area(self):
-        return self.height * self.width
+    def display(self):
+        print(f"Current Acc:{self.account_number}, Balance: {self.balance}, Overdraft limit: {self.od_limit}")
+
+
+if __name__== '__main__':
+    # creating object (acc1, acc2 ..)
+    acc1= SavingAcc("SA390", "Chaitanya Sonawane", 10000, 3)
+    acc2= CurrentAcc("CA473", "Rajeshri Bhamre", 100000, 25000)
+
+
+# here it is public attribute --> make it private
+print(acc1.balance)
+
+# abstraction
+acc1.deposit(20000)
+acc1.addinterest()
+acc1.display()
+
+
+acc2.deposit(50000)
+acc2.display()
+acc2.withdraw(125000)
+
+
+
+
