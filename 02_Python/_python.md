@@ -9,6 +9,12 @@
 - const
 - variable
 
+### Input & Output
+- end= "-"
+- sep= ","
+- map(int, input().split())
+
+
 ### Datatypes
 
 primtive:
@@ -74,6 +80,7 @@ immutable:
 - center(num, symbol)  --> center str with symbol around
 - split() --> str into segments[]
 - .join() --> combine multiple strings into one single string, with a specific separator in between.
+- .swapcase()
 
  
 ### Data Structures
@@ -138,7 +145,7 @@ scope of a loop variable extends beyond the loop itself. This means that even af
 
 - break: exit loop
 - continue: skip that specific iteration
-- pass: null opt (marker)
+- pass: null opt (placeholder)
 - exit: exit program
 - for else execute a block of code after a loop completes, but only if the loop was not interrupted by a break statement.
 - 
@@ -152,3 +159,8 @@ soln: serialization & deserialization
 
 
 ### Functions
+- block of code that perform specific task, reuse and organise code  
+- *args -> multiple arguments
+- *kwargs -> keywords args .item()
+- lambda fn: small anonymous fn defined using lambda keyword, multi args but one logic
+- map fn: iterate over iterable (list, tuple, set, dict)
