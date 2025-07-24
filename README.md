@@ -11,6 +11,6 @@
 
 
 ---
-- [LinkedIn](https://www.linkedin.com/in/phasehumans/)
+- [LinkedIn]()
 - [Twitter]()
 - dev.chaitanyasonawane@gmail.com
