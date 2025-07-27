@@ -13,5 +13,4 @@
 ---
 - [LinkedIn]()
 - [Twitter]()
-- [Kaggle](https://www.kaggle.com/chaitanya197)
 - dev.chaitanyasonawane@gmail.com
