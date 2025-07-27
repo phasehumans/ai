@@ -10,7 +10,6 @@
 3. Superstore Sales Data EDA - [github repo]()
 
 
----
 - [LinkedIn]()
 - [Twitter]()
 - dev.chaitanyasonawane@gmail.com
