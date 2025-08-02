@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .parent {
+            display: flex;
+            /* aline to main axis */
+            justify-content: center;
+            flex-wrap: wrap;
+            /* dont squeeze elmt */
+
+            gap: 20px;
+        }
+
+        .child {
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- control child elmt -->
+    <h1>FLEXBOX</h1>
+
+    <div class="parent">
+        <div class="child">Item 1</div>
+        <div class="child">Item 2</div>
+        <div class="child">Item 3</div>
+        <div class="child">Item 4</div>
+    </div>
+
+
+</body>
+</html>
