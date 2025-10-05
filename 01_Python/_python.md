@@ -164,3 +164,35 @@ soln: serialization & deserialization
 - *kwargs -> keywords args .item()
 - lambda fn: small anonymous fn defined using lambda keyword, multi args but one logic
 - map fn: iterate over iterable (list, tuple, set, dict)
+
+### OOP
+- class: `class Name:` -> blueprint for objects
+- constructor: `def __init__(self, ...):` -> init instance
+- self: reference to instance
+- instance vars: `self.x` -> unique per object
+- class vars: defined in class body -> shared across instances
+- methods: instance(self), `@classmethod`(cls), `@staticmethod`
+- inheritance: `class Child(Parent):` -> reuse/override
+- super(): call parent implementation -> `super().__init__(...)`
+- polymorphism: same method name across different classes
+- encapsulation: `_protected` and `__private` (name mangling)
+- properties: `@property` and setter to manage access
+- special methods: `__repr__`, `__str__`, `__eq__`, `__len__`, `__iter__`, `__next__`
+- dataclass: `from dataclasses import dataclass` -> reduce boilerplate
+- __slots__: reduce memory per-instance (optional)
+- usage: see `08_oops/*` and `polymorphism.py` for examples
+
+### Advanced Python
+- comprehensions: list/dict/set comprehensions for concise transforms
+- generator expressions: `(x for x in iterable)` -> lazy
+- decorators: `@decorator` to wrap functions (logging, cache)
+- functools: `lru_cache`, `partial`, `wraps` useful for performance and wrappers
+- itertools: tools for efficient iteration (chain, groupby, permutations)
+- async/await: async functions, `asyncio` for concurrency (IO-bound)
+- threading vs multiprocessing: threads for IO, multiprocessing for CPU (GIL note)
+
+- profiling: `cProfile`, `timeit` for performance hotspots
+- debugging: `pdb`, IDE debuggers, logging module
+- logging: use `logging` instead of prints for real apps
+
+
